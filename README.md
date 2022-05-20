@@ -23,12 +23,12 @@ The output of the logistic function is not symmetric around zero. So the output 
 ## Algorithm
 1. Import packages.
 2. Define neural network class
-3.Model single neuron with 3 inputs and 1 output and assign random weights to a 3 x 1 matrix with values between -1 and 1
-4.Define sigmoid function and calculate the error
-5.Multiply the error by the input and again by the gradient of the sigmoid curve
-6.Initialize a single neuron neural network
-7.Train neural network using training data
-8.Test neural network with new data
+3. Model single neuron with 3 inputs and 1 output and assign random weights to a 3 x 1 matrix with values between -1 and 1
+4. Define sigmoid function and calculate the error
+5. Multiply the error by the input and again by the gradient of the sigmoid curve
+6. Initialize a single neuron neural network
+7. Train neural network using training data
+8. Test neural network with new data
 
 ## Program:
 ```
