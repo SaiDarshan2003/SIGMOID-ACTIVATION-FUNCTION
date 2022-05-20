@@ -21,8 +21,8 @@ The derivative of the function is f'(x) = sigmoid(x)*(1-sigmoid(x)).
 The output of the logistic function is not symmetric around zero. So the output of all the neurons will be of the same sign. This makes the training of the neural network more difficult and unstable.
 
 ## Algorithm
-1.Import packages
-2.Define neural network class
+1. Import packages.
+2. Define neural network class
 3.Model single neuron with 3 inputs and 1 output and assign random weights to a 3 x 1 matrix with values between -1 and 1
 4.Define sigmoid function and calculate the error
 5.Multiply the error by the input and again by the gradient of the sigmoid curve
